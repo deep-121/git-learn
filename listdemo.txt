@@ -1,0 +1,21 @@
+this file in demo branch
+
+Git hub
+
+git clone
+
+git checkout
+
+git chekout -b
+
+git 
+
+git commit
+
+git stash
+
+git push
+
+git pop
+
+git revert

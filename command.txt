@@ -1,2 +1,21 @@
-hello
-i am here
+1.git init
+2.git clone "url" go to repositories
+3.git add . ,git add --all , git add
+4.git commit -m  " message that"
+5.git status check status any change is there
+6.git push  ("if you want to push to local repo") ,
+6.1.git push --set-upstream ("if you want to push to your remote repo)
+7.git  pull  ("to pull data from branch and integrate with our current or local repo")
+8.git  command for creating branch  and merging them :-
+8.1.git branch
+8.2.git branch  ("to list all branch ")
+9. command  for  navigating btween  differnet branch
+9.1.git  checkout  < branch name >
+9.2.git checkout  -b  < branch  name >  (" it will create branch and redirect to that branch ");
+10. git merge
+11. git Stash,git stash pop > store data that stash and add back on stash pop
+12. git reset,git reset--hard, help in stage management
+13. pull from another branch
+13.1 git checkout < branch name >
+13.2 git fetch origin
+13.3 git merge <branch name 2 >(from where you want to pull)
