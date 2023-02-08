@@ -13,9 +13,34 @@
 9.1.git  checkout  < branch name >
 9.2.git checkout  -b  < branch  name >  (" it will create branch and redirect to that branch ");
 10. git merge
-11. git Stash,git stash pop > store data that stash and add back on stash pop
+11. git Stash =>command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+    git stash pop => store data that stash and add back on stash pop
+    git stash apply => You can also apply the latest stash without removing the stash from the stash stack like this
+
 12. git reset,git reset--hard, help in stage management
 13. pull from another branch
 13.1 git checkout < branch name >
 13.2 git fetch origin
 13.3 git merge <branch name 2 >(from where you want to pull)
+
+14 git-fetch - Download objects and refs from another repository
+
+
+The easiest way to set the upstream branch is to use the “git push” command with the “-u” option for upstream branch.
+
+    $ git push -u <remote> <branch>
+    Alternatively, you can use the “–set-upstream” option that is equivalent to the “-u” option.
+    $ git push --set-upstream <remote> <branch>
+
+git remote add <name> <url>
+    Create a new connection to a remote repository. After adding a remote, you’ll be able to use ＜name＞ as a convenient shortcut for ＜url＞ in other Git commands.
+
+git remote rm <name>
+    Remove the connection to the remote repository called ＜name＞.
+
+git remote rename <old-name> <new-name>
+    Rename a remote connection from ＜old-name＞ to ＜new-name＞.
+
+Git Config => The most basic use case for git config is to invoke it with a configuration name, which will display the set value at that name.
+ Configuration names are dot delimited strings composed of a 'section' and a 'key' based on their hierarchy. For example: user.email
+ git config user.email
